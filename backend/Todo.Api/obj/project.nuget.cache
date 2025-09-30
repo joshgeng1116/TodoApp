@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HUclya3mzbs=",
+  "dgSpecHash": "va3uQq1Pn1A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Todo.Api.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.api\\Todo.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.9\\microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
