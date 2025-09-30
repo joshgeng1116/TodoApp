@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\TodoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB71EDE-75FA-41AA-94F5-4458E78052A9}|Todo.Api.Test\\Todo.Api.Tests.csproj|c:\\users\\user\\desktop\\todoapp\\todo.api.test\\todoapiintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB71EDE-75FA-41AA-94F5-4458E78052A9}|Todo.Api.Test\\Todo.Api.Tests.csproj|solutionrelative:todo.api.test\\todoapiintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB71EDE-75FA-41AA-94F5-4458E78052A9}|Todo.Api.Test\\Todo.Api.Tests.csproj|c:\\users\\user\\desktop\\todoapp\\todo.api.test\\todo.api.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0EB71EDE-75FA-41AA-94F5-4458E78052A9}|Todo.Api.Test\\Todo.Api.Tests.csproj|solutionrelative:todo.api.test\\todo.api.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|c:\\users\\user\\desktop\\todoapp\\backend\\todo.api\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|solutionrelative:backend\\todo.api\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|c:\\users\\user\\desktop\\todoapp\\backend\\todo.api\\dtos\\createtododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|solutionrelative:backend\\todo.api\\dtos\\createtododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|c:\\users\\user\\desktop\\todoapp\\backend\\todo.api\\dtos\\updatetododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|solutionrelative:backend\\todo.api\\dtos\\updatetododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|c:\\users\\user\\desktop\\todoapp\\backend\\todo.api\\dtos\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|solutionrelative:backend\\todo.api\\dtos\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|c:\\users\\user\\desktop\\todoapp\\backend\\todo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|solutionrelative:backend\\todo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|c:\\users\\user\\desktop\\todoapp\\backend\\todo.api\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|solutionrelative:backend\\todo.api\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|c:\\users\\user\\desktop\\todoapp\\backend\\todo.api\\services\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|solutionrelative:backend\\todo.api\\services\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|c:\\users\\user\\desktop\\todoapp\\backend\\todo.api\\repositories\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|solutionrelative:backend\\todo.api\\repositories\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB71EDE-75FA-41AA-94F5-4458E78052A9}|Todo.Api.Test\\Todo.Api.Tests.csproj|c:\\users\\user\\desktop\\todoapp\\todo.api.test\\todoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB71EDE-75FA-41AA-94F5-4458E78052A9}|Todo.Api.Test\\Todo.Api.Tests.csproj|solutionrelative:todo.api.test\\todoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|c:\\users\\user\\desktop\\todoapp\\backend\\todo.api\\dtos\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|solutionrelative:backend\\todo.api\\dtos\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|c:\\users\\user\\desktop\\todoapp\\backend\\todo.api\\repositories\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|solutionrelative:backend\\todo.api\\repositories\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|c:\\users\\user\\desktop\\todoapp\\backend\\todo.api\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FF9E43-9B31-49A4-BCD2-D719BC074CA7}|backend\\Todo.Api\\Todo.Api.csproj|solutionrelative:backend\\todo.api\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoApiIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\Todo.Api.Test\\TodoApiIntegrationTests.cs",
+              "RelativeDocumentMoniker": "Todo.Api.Test\\TodoApiIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\Todo.Api.Test\\TodoApiIntegrationTests.cs",
+              "RelativeToolTip": "Todo.Api.Test\\TodoApiIntegrationTests.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T14:41:58.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\Todo.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Program.cs",
+              "RelativeToolTip": "backend\\Todo.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T14:38:07.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TodoServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\Todo.Api.Test\\TodoServiceTests.cs",
+              "RelativeDocumentMoniker": "Todo.Api.Test\\TodoServiceTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\Todo.Api.Test\\TodoServiceTests.cs",
+              "RelativeToolTip": "Todo.Api.Test\\TodoServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T14:23:16.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Todo.Api.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\Todo.Api.Test\\Todo.Api.Tests.csproj",
+              "RelativeDocumentMoniker": "Todo.Api.Test\\Todo.Api.Tests.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\Todo.Api.Test\\Todo.Api.Tests.csproj",
+              "RelativeToolTip": "Todo.Api.Test\\Todo.Api.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-29T14:22:30.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodosController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Controllers\\TodosController.cs",
+              "RelativeDocumentMoniker": "backend\\Todo.Api\\Controllers\\TodosController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Controllers\\TodosController.cs",
+              "RelativeToolTip": "backend\\Todo.Api\\Controllers\\TodosController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwBwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T14:16:28.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Services\\TodoService.cs",
+              "RelativeDocumentMoniker": "backend\\Todo.Api\\Services\\TodoService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Services\\TodoService.cs",
+              "RelativeToolTip": "backend\\Todo.Api\\Services\\TodoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:45:37.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITodoService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Services\\ITodoService.cs",
+              "RelativeDocumentMoniker": "backend\\Todo.Api\\Services\\ITodoService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Services\\ITodoService.cs",
+              "RelativeToolTip": "backend\\Todo.Api\\Services\\ITodoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:44:59.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TodoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Repositories\\TodoRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Todo.Api\\Repositories\\TodoRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Repositories\\TodoRepository.cs",
+              "RelativeToolTip": "backend\\Todo.Api\\Repositories\\TodoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:41:26.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ITodoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Repositories\\ITodoRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Todo.Api\\Repositories\\ITodoRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Repositories\\ITodoRepository.cs",
+              "RelativeToolTip": "backend\\Todo.Api\\Repositories\\ITodoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:40:06.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Mapping.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\DTOs\\Mapping.cs",
+              "RelativeDocumentMoniker": "backend\\Todo.Api\\DTOs\\Mapping.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\DTOs\\Mapping.cs",
+              "RelativeToolTip": "backend\\Todo.Api\\DTOs\\Mapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:29:06.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TodoDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\DTOs\\TodoDto.cs",
+              "RelativeDocumentMoniker": "backend\\Todo.Api\\DTOs\\TodoDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\DTOs\\TodoDto.cs",
+              "RelativeToolTip": "backend\\Todo.Api\\DTOs\\TodoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:28:30.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateTodoDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\DTOs\\UpdateTodoDto.cs",
+              "RelativeDocumentMoniker": "backend\\Todo.Api\\DTOs\\UpdateTodoDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\DTOs\\UpdateTodoDto.cs",
+              "RelativeToolTip": "backend\\Todo.Api\\DTOs\\UpdateTodoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:28:04.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateTodoDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\DTOs\\CreateTodoDto.cs",
+              "RelativeDocumentMoniker": "backend\\Todo.Api\\DTOs\\CreateTodoDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\DTOs\\CreateTodoDto.cs",
+              "RelativeToolTip": "backend\\Todo.Api\\DTOs\\CreateTodoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:27:26.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "backend\\Todo.Api\\Models\\TodoItem.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoApp\\backend\\Todo.Api\\Models\\TodoItem.cs",
+              "RelativeToolTip": "backend\\Todo.Api\\Models\\TodoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:24:57.478Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
