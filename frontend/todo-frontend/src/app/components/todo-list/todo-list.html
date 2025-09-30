@@ -110,7 +110,7 @@
     <div class="todos-content">
       <div class="todos-list" *ngIf="filteredTodos.length > 0">
         <mat-card 
-      *ngFor="let todo of todos" 
+      *ngFor="let todo of filteredTodos" 
       class="todo-card"
       [class.completed]="todo.completed"
       [class.editing]="editingTodo?.id === todo.id"

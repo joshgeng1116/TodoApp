@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\TodoApp\publish\Todo.Api.exe
+C:\Users\user\Desktop\TodoApp\publish\appsettings.Development.json
+C:\Users\user\Desktop\TodoApp\publish\appsettings.json
+C:\Users\user\Desktop\TodoApp\publish\Todo.Api.dll
+C:\Users\user\Desktop\TodoApp\publish\Todo.Api.deps.json
+C:\Users\user\Desktop\TodoApp\publish\Todo.Api.runtimeconfig.json
+C:\Users\user\Desktop\TodoApp\publish\Todo.Api.pdb
+C:\Users\user\Desktop\TodoApp\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\user\Desktop\TodoApp\publish\Microsoft.OpenApi.dll

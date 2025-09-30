@@ -6,6 +6,20 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngularApp",
+        policy =>
+        {
+            policy.WithOrigins(
+                "http://joshgeng.com",
+                "https://joshgeng.com",
+                "http://localhost:4200" 
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+        });
+});
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 

@@ -415,3 +415,4 @@ C:\Users\user\Desktop\TodoApp\Todo.Api.Test\obj\Debug\net9.0\refint\Todo.Api.Tes
 C:\Users\user\Desktop\TodoApp\Todo.Api.Test\obj\Debug\net9.0\Todo.Api.Tests.pdb
 C:\Users\user\Desktop\TodoApp\Todo.Api.Test\obj\Debug\net9.0\Todo.Api.Tests.genruntimeconfig.cache
 C:\Users\user\Desktop\TodoApp\Todo.Api.Test\obj\Debug\net9.0\ref\Todo.Api.Tests.dll
+C:\Users\user\Desktop\TodoApp\Todo.Api.Test\obj\Debug\net9.0\Todo.Api.Tests.sourcelink.json
