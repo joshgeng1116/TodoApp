@@ -1,0 +1,189 @@
+<div class="todo-container">
+  <div class="header">
+    <h1 class="app-title">
+      <mat-icon class="title-icon">check_circle</mat-icon>
+      My Tasks
+    </h1>
+    <div class="stats" *ngIf="todos.length > 0">
+      <span class="stat-badge">{{ completedCount }} / {{ totalCount }} completed</span>
+    </div>
+  </div>
+
+  <mat-card class="add-card" appearance="outlined">
+    <div class="form-wrapper">
+      <mat-form-field appearance="outline" class="title-field">
+        <mat-label>Task Title</mat-label>
+        <input 
+          matInput 
+          [(ngModel)]="newTitle" 
+          placeholder="What needs to be done?" 
+          (keyup.enter)="add()"
+          required 
+        />
+      </mat-form-field>
+      
+      <mat-form-field appearance="outline" class="desc-field">
+        <mat-label>Description (optional)</mat-label>
+        <textarea 
+          matInput 
+          [(ngModel)]="newDescription" 
+          rows="2" 
+          placeholder="Add more details..."
+        ></textarea>
+      </mat-form-field>
+      
+      <div class="button-group">
+        <button
+          mat-raised-button
+          color="primary"
+          (click)="add()"
+          [disabled]="saving || !newTitle.trim()"
+          class="add-btn">
+          <mat-icon>add</mat-icon>
+          Add Task
+        </button>
+        
+        <button
+          mat-icon-button
+          (click)="refresh()"
+          [disabled]="loading"
+          matTooltip="Refresh list"
+          class="refresh-btn">
+          <mat-icon>refresh</mat-icon>
+        </button>
+      </div>
+    </div>
+  </mat-card>
+
+  <mat-progress-bar *ngIf="loading" mode="indeterminate" class="progress"></mat-progress-bar>
+  
+  <div *ngIf="error" class="error-message">
+    <mat-icon>error_outline</mat-icon>
+    {{ error }}
+  </div>
+
+  <div class="main-content">
+    <!-- Filters Sidebar -->
+    <aside class="filters-sidebar">
+      <h3 class="sidebar-title">Filters</h3>
+      
+      <div class="filter-list">
+        <button 
+          mat-button 
+          class="filter-item"
+          [class.active]="activeFilter === 'all'"
+          (click)="setFilter('all')">
+          <mat-icon>list</mat-icon>
+          <span class="filter-label">All Tasks</span>
+          <span class="filter-count">{{ totalCount }}</span>
+        </button>
+        
+        <button 
+          mat-button 
+          class="filter-item"
+          [class.active]="activeFilter === 'active'"
+          (click)="setFilter('active')">
+          <mat-icon>radio_button_unchecked</mat-icon>
+          <span class="filter-label">Active</span>
+          <span class="filter-count">{{ activeCount }}</span>
+        </button>
+        
+        <button 
+          mat-button 
+          class="filter-item"
+          [class.active]="activeFilter === 'completed'"
+          (click)="setFilter('completed')">
+          <mat-icon>check_circle</mat-icon>
+          <span class="filter-label">Completed</span>
+          <span class="filter-count">{{ completedCount }}</span>
+        </button>
+      </div>
+
+      <div class="filter-info" *ngIf="activeFilter !== 'all'">
+        <mat-icon>info</mat-icon>
+        <span *ngIf="activeFilter === 'active'">Showing incomplete tasks</span>
+        <span *ngIf="activeFilter === 'completed'">Showing completed tasks</span>
+      </div>
+    </aside>
+
+    <!-- Todo List Content -->
+    <div class="todos-content">
+      <div class="todos-list" *ngIf="filteredTodos.length > 0">
+        <mat-card 
+      *ngFor="let todo of todos" 
+      class="todo-card"
+      [class.completed]="todo.completed"
+      [class.editing]="editingTodo?.id === todo.id"
+      (click)="editingTodo?.id !== todo.id && toggleComplete(todo)"
+      appearance="outlined">
+      
+      <div class="todo-content" *ngIf="editingTodo?.id !== todo.id">
+        <div class="check-indicator">
+          <mat-icon *ngIf="todo.completed">check_circle</mat-icon>
+          <mat-icon *ngIf="!todo.completed">radio_button_unchecked</mat-icon>
+        </div>
+        
+        <div class="todo-text">
+          <div class="title" [class.done]="todo.completed">
+            {{ todo.title }}
+          </div>
+          <div class="meta">
+            <mat-icon class="meta-icon">schedule</mat-icon>
+            {{ todo.createdAt | date:'MMM dd, yyyy · HH:mm' }}
+          </div>
+          <div class="desc" *ngIf="todo.description">
+            {{ todo.description }}
+          </div>
+        </div>
+        
+        <div class="actions">
+          <button 
+            mat-icon-button 
+            color="primary" 
+            (click)="startEdit(todo, $event)"
+            matTooltip="Edit task"
+            class="action-btn">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button 
+            mat-icon-button 
+            color="warn" 
+            (click)="remove(todo, $event)"
+            matTooltip="Delete task"
+            class="action-btn">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+
+      <!-- Edit Mode -->
+      <div class="edit-content" *ngIf="editingTodo?.id === todo.id">
+        <mat-form-field appearance="outline" class="edit-title">
+          <mat-label>Title</mat-label>
+          <input matInput [(ngModel)]="editTitle" (keyup.enter)="saveEdit()" />
+        </mat-form-field>
+        
+        <mat-form-field appearance="outline" class="edit-desc">
+          <mat-label>Description</mat-label>
+          <textarea matInput [(ngModel)]="editDescription" rows="2"></textarea>
+        </mat-form-field>
+        
+        <div class="edit-actions">
+          <button mat-raised-button color="primary" (click)="saveEdit()" [disabled]="!editTitle.trim()">
+            <mat-icon>save</mat-icon>
+            Save
+          </button>
+          <button mat-button (click)="cancelEdit()">
+            Cancel
+          </button>
+        </div>
+      </div>
+    </mat-card>
+  </div>
+
+  <div class="empty-state" *ngIf="!loading && todos.length === 0">
+    <mat-icon class="empty-icon">task_alt</mat-icon>
+    <h2>No tasks yet</h2>
+    <p>Create your first task to get started!</p>
+  </div>
+</div>
